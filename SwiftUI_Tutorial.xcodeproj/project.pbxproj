@@ -13,6 +13,7 @@
 		1509390E246794DF00229075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1509390D246794DF00229075 /* Assets.xcassets */; };
 		15093911246794DF00229075 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15093910246794DF00229075 /* Preview Assets.xcassets */; };
 		15093914246794DF00229075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15093912246794DF00229075 /* LaunchScreen.storyboard */; };
+		1509391C24679A9F00229075 /* ListNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509391B24679A9F00229075 /* ListNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		15093910246794DF00229075 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15093913246794DF00229075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15093915246794DF00229075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1509391B24679A9F00229075 /* ListNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				15093907246794DC00229075 /* AppDelegate.swift */,
 				15093909246794DC00229075 /* SceneDelegate.swift */,
 				1509390B246794DC00229075 /* ContentView.swift */,
+				1509391B24679A9F00229075 /* ListNavigation.swift */,
 				1509390D246794DF00229075 /* Assets.xcassets */,
 				15093912246794DF00229075 /* LaunchScreen.storyboard */,
 				15093915246794DF00229075 /* Info.plist */,
@@ -149,6 +152,7 @@
 				15093908246794DC00229075 /* AppDelegate.swift in Sources */,
 				1509390A246794DC00229075 /* SceneDelegate.swift in Sources */,
 				1509390C246794DC00229075 /* ContentView.swift in Sources */,
+				1509391C24679A9F00229075 /* ListNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
