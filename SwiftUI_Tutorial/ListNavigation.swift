@@ -24,18 +24,50 @@ var listData: [ToDoItem] = [
 
 
 struct ListNavigation: View {
-    var body: some View {
-      List(listData) { data in
-        HStack {
-          Image(systemName: data.imageName)
-          Text(data.task)
+  
+  @State var toggleStatus = true
+  
+  var body: some View {
+    NavigationView{
+      List {
+        Section(header: Text("seciotno1")) {
+          Toggle(isOn: $toggleStatus) {
+            Text("Toggle Cell")
+          }
+        }
+        
+        Section(header: Text("section2")) {
+          ForEach(listData) { item in
+            HStack {
+              Image(systemName: item.imageName)
+              Text(item.task)
+            }
+          }
+          .onDelete(perform: deleteItem(at:))
+          .onMove(perform: moveItem(from:to:))
+          
+          Toggle(isOn: $toggleStatus) {
+            Text("Toggle Cell")
+          }
         }
       }
+      .navigationBarTitle(Text("리스트뷰"))
+    .navigationBarItems(trailing: EditButton())
     }
+    
+  }
+  
+  func moveItem(from source: IndexSet, to destination: Int) {
+    
+  }
+  
+  func deleteItem(at offset: IndexSet) {
+    
+  }
 }
 
 struct ListNavigation_Previews: PreviewProvider {
-    static var previews: some View {
-        ListNavigation()
-    }
+  static var previews: some View {
+    ListNavigation()
+  }
 }
