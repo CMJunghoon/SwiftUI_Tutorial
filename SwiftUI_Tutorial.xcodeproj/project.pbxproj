@@ -21,6 +21,7 @@
 		150939272469963000229075 /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150939262469963000229075 /* CarStore.swift */; };
 		150939292469968700229075 /* CarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150939282469968700229075 /* CarContentView.swift */; };
 		1509392B246999DF00229075 /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509392A246999DF00229075 /* CarDetail.swift */; };
+		3B5E850E24A03DA2000DC3AE /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E850D24A03DA2000DC3AE /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		150939262469963000229075 /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 		150939282469968700229075 /* CarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarContentView.swift; sourceTree = "<group>"; };
 		1509392A246999DF00229075 /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
+		3B5E850D24A03DA2000DC3AE /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				15093907246794DC00229075 /* AppDelegate.swift */,
 				15093909246794DC00229075 /* SceneDelegate.swift */,
 				1509390B246794DC00229075 /* ContentView.swift */,
+				3B5E850D24A03DA2000DC3AE /* SwiftUIView.swift */,
 				1509391B24679A9F00229075 /* ListNavigation.swift */,
 				150939212469943A00229075 /* Car */,
 				1509391F2469942B00229075 /* carData.json */,
@@ -184,6 +187,7 @@
 				1509390A246794DC00229075 /* SceneDelegate.swift in Sources */,
 				15093925246994BA00229075 /* CarData.swift in Sources */,
 				150939292469968700229075 /* CarContentView.swift in Sources */,
+				3B5E850E24A03DA2000DC3AE /* SwiftUIView.swift in Sources */,
 				150939232469944B00229075 /* Car.swift in Sources */,
 				1509390C246794DC00229075 /* ContentView.swift in Sources */,
 				1509392B246999DF00229075 /* CarDetail.swift in Sources */,
